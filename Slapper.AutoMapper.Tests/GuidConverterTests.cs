@@ -14,7 +14,7 @@ namespace Slapper.Tests.ConvertersTests
         public void Can_Convert_To_Type(Type targetType)
         {
             // Act + Assert
-            Assert.True(this.converter.CanConvert(null, targetType)); // Input value does not matter, null is enough for the test.
+            Assert.True(this.converter.CanConvert(null, targetType, null)); // Input value does not matter, null is enough for the test.
         }
     }
 }
